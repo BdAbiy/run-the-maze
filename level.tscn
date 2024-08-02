@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://4fxxxbyoar87"]
+
+[ext_resource type="PackedScene" uid="uid://doe5nnicq3qh3" path="res://maze.tscn" id="1_dllxu"]
+[ext_resource type="PackedScene" uid="uid://bv7uruk1qbpgj" path="res://player/player.tscn" id="2_u7c8b"]
+[ext_resource type="PackedScene" uid="uid://ock5r1mhmrrh" path="res://blocs/b_1.tscn" id="3_mo82j"]
+
+[node name="level" type="Node3D"]
+
+[node name="maze" parent="." instance=ExtResource("1_dllxu")]
+
+[node name="Node3D" parent="." instance=ExtResource("2_u7c8b")]
+transform = Transform3D(0.214606, 0, 0, 0, 0.214606, 0, 0, 0, 0.214606, 0, 0.341549, 0)
+floor_block_on_wall = false
+
+[node name="b1" parent="." instance=ExtResource("3_mo82j")]
+transform = Transform3D(0.420259, 0, 0, 0, 0.310389, 0, 0, 0, 0.420259, -0.196, -0.075, -15.001)

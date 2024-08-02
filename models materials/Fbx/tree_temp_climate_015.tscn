@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://qj2vpd37nxt"]
+
+[ext_resource type="PackedScene" uid="uid://1eg5bfkw1hoo" path="res://models materials/Fbx/Tree_temp_climate_015.FBX" id="1_8qt3k"]
+
+[node name="Tree_temp_climate_015" instance=ExtResource("1_8qt3k")]

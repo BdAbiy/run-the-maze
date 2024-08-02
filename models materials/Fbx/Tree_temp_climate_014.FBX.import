@@ -1,0 +1,32 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://cvtwxtumsxcha"
+path="res://.godot/imported/Tree_temp_climate_014.FBX-61ac83b15fe2abd98d99e3e0e52bd3c3.scn"
+
+[deps]
+
+source_file="res://models materials/Fbx/Tree_temp_climate_014.FBX"
+dest_files=["res://.godot/imported/Tree_temp_climate_014.FBX-61ac83b15fe2abd98d99e3e0e52bd3c3.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=0
+meshes/lightmap_texel_size=0.1
+skins/use_named_skins=true
+animation/import=true
+animation/fps=15
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={}
+gltf/embedded_image_handling=1
